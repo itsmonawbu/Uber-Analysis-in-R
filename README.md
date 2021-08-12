@@ -5,7 +5,7 @@ from April to September of 2014, and 14.3 million more Uber pickups from January
 Trip-level data on 10 other for-hire vehicle (FHV) companies, as well as aggregated data for 329 FHV companies, is also included.
 
 #Data Preprocessing 
-Therefore, we separated the Date.Time column into more specific columns that tells us the the second of the day, minute of the day, 
+We separated the Date.Time column into more specific columns that tells us the the second of the day, minute of the day, 
 hour of the day, day of the week, day of the month, as well as the month for better analysis with the number of trips. 
 For certain machine learning algorithms, we also subset the data to analyze only a certain month because the datasets were simply 
 too big and it takes a very long time to run.
